@@ -46,6 +46,15 @@ img {
 	float: right;
 	width: 50%;
 }
+/*PORTFOLIO STYLE*/
+.projects img {
+	margin: 0 auto;
+	float: none;
+	width: 100%;
+}
+.pics img {
+	margin: 0 auto;
+}
 h2 {
 	font-size: 24px;
 	font-weight: 600;
@@ -58,6 +67,11 @@ p {
 	padding-top: 47px;
 	padding-left: 44px;
 	padding-right: 450px;
+}
+/*PORTFOLIO STYLE*/
+p.experience {
+	text-align: center;
+	padding: 60px 124px;
 }
 footer {
 	clear: both;
