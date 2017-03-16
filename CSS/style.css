@@ -12,7 +12,7 @@
 header {
 	background-color: #FFC8C0;
 	height: 200px;
-
+	border: 3px solid black;
 }
 h1 {
 	font-family: 'Droid Sans Mono', monospace;
@@ -32,12 +32,16 @@ h3 {
 	display: inline;
 	font-size: 20px;
 	font-weight: 500;
+	position: relative;
+	margin: 18px;
 }
 a {
 	display: inline;
 	font-size: 20px;
 	font-weight: 500;
 	text-decoration: none;
+	position: relative;
+	margin: 18px;
 }
 section {
 	height: 400px;
@@ -48,9 +52,11 @@ img {
 }
 /*PORTFOLIO STYLE*/
 .projects img {
-	margin: 0 auto;
+	display: block;
+	margin: auto;
 	float: none;
-	width: 100%;
+	width: 95%;
+
 }
 .pics img {
 	margin: 0 auto;
@@ -77,6 +83,7 @@ footer {
 	clear: both;
 	height: 100px;
 	background-color: #FFC8C0;
+	border: 3px solid black;
 }
 .links {
 	text-align: center;
